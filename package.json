@@ -1,0 +1,28 @@
+{
+  "name": "line currency api interview",
+  "version": "1.0.0",
+  "description": "line currency api interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "line currency api interview"
+  ],
+  "author": "Chanathip Thongmont",
+  "license": "free",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.2.1",
+    "axios": "^0.19.2",
+    "express": "^4.16.3"
+  }
+}
